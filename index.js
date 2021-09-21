@@ -1,5 +1,5 @@
 const arrow1 = function arr(val) {
-  return `Hello ${val}`;
+  return `Hello ${val}`; // return "Hello" + val; concatenation is not passing linter instead taking interpolation
 };
 // console.log(arrow1('Lucky'));
 document.getElementById('display-books').innerHTML = arrow1('Lucky');
