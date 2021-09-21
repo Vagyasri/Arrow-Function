@@ -23,3 +23,8 @@ document.getElementById('display-books').innerHTML = arrow4('Lucky');
 const arrow = () => 'Hello World';
 // console.log(arrow());
 document.getElementById('display-books').innerHTML = arrow(); // the latest change will be displayed
+
+// without 2 parameter (value)
+const arrow5 = (name, surname) => `Hello ${name} ${surname}`;
+// console.log(arrow5('Lucky', 'Patra'));
+document.getElementById('display-books').innerHTML = arrow5('Lucky', 'Patra');
